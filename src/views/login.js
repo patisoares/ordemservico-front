@@ -28,7 +28,7 @@ class Login extends React.Component {
         }).catch(erro => {
             //this.setState({erroLogin: erro.response.data})
             messageError(erro.response.data)
-            console.log(erro.response.data)
+            //console.log(erro.response.data)
         })
     }
 
